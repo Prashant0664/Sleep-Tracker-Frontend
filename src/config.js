@@ -21,4 +21,4 @@ const firebaseConfig = {
     measurementId: MEID
 };
 
-export default firebaseConfig
+export default firebaseConfig;
