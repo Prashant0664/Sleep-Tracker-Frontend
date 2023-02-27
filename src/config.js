@@ -6,11 +6,11 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional\
 // const APIKEY=process.env.REACT_APP_APTKEY
 const PROJECTID = process.env.REACT_APP_PROJECTID
-const STORAGEBUCKET = process.env.REACT_APP_STORAGEBUCKET
+const STORAGEBUCKET = "project-authsleep.appspot.com"
 const MID = process.env.REACT_APP_MID
 const AID = process.env.REACT_APP_AID
 const MEID = process.env.REACT_APP_MEID
-const AUTHDOMAIN = process.env.REACT_APP_AUTHDOMAIN
+const AUTHDOMAIN = "project-authsleep.firebaseapp.com"
 const firebaseConfig = {
     apiKey: "AIzaSyCODgxdOxAHqVgdL-JgfNFB8W2vISJ8r6I",
     authDomain: AUTHDOMAIN,
