@@ -19,7 +19,7 @@ const Sleepchange = ({ email, i, j, in1, in2, cs1 }) => {
     const submit = () => {
         cs1(false)
         try {
-            axios.patch('/api/v1/home/change', {
+            axios.patch('https://sleeptrac101.onrender.com/api/v1/home/change', {
                 i: i, j: j, start: startDate, end: endDate, email: email, in2: in2, in1: in1
             })
         }

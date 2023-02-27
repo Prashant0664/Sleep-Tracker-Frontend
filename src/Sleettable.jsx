@@ -8,7 +8,7 @@ const Sleettable = ({ aday2, ahour, amin, asec, amonth, ast, aet, email }) => {
     const runni = () => {
 
         // try {
-        //     const dde = axios.post('/api/v1/home/getd', {
+        //     const dde = axios.post('https://sleeptrac101.onrender.com/api/v1/home/getd', {
         //         email: email,
         //     })
         //         .then((res, err) => {
@@ -63,7 +63,7 @@ const Sleettable = ({ aday2, ahour, amin, asec, amonth, ast, aet, email }) => {
     const DeleteH = async (date, date2, in1, in2) => {
 
         try {
-            const dd = await axios.patch('/api/v1/home/del', {
+            const dd = await axios.patch('https://sleeptrac101.onrender.com/api/v1/home/del', {
                 email: email,
                 est1: date,
                 est2: date2,

@@ -28,7 +28,7 @@ const Start = ({ token, name, mail }) => {
     var month = arr[date.getMonth()]
     try {
 
-      const data = axios.post('/api/v1/home/main', {
+      const data = axios.post('https://sleeptrac101.onrender.com/api/v1/home/main', {
         "name": { name },
         "email": { mail },
         "day": day2,
