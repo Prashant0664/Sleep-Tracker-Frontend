@@ -39,7 +39,7 @@ const Start = ({ token, name, mail }) => {
         "status": [!state],
         "token": { token },
         "cstart": { cstart }
-      }).then((result, err) => {
+      }, {mode: "no-cors"}).then((result, err) => {
         if (result) {
           var aresult = result.data
           caday2(aresult.day)

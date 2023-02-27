@@ -63,13 +63,13 @@ const Sleettable = ({ aday2, ahour, amin, asec, amonth, ast, aet, email }) => {
     const DeleteH = async (date, date2, in1, in2) => {
 
         try {
-            const dd = await axios.patch('https://sleeptv1back.onrender.com/api/v1/home/del', {
+            await axios.patch('https://sleeptv1back.onrender.com/api/v1/home/del', {
                 email: email,
                 est1: date,
                 est2: date2,
                 in1: in1,
                 in2: in2
-            },)
+            }, {mode: "no-cors"})
         } catch (error) {
             console.log( error)
         }

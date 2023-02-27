@@ -59,6 +59,8 @@ const Stats = ({ ahour, amin, asec, amonth, ast, aet }) => {
       }
     }
   }
+// "proxy": "http://localhost:5000",
+
   var stod = 0;
   var avg = "HAPPY DREAMS!☺";
   var min = "HAPPY DREAMS!☺";
