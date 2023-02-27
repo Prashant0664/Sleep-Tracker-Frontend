@@ -469,14 +469,13 @@ button {
   .hiddenc3 {
     display: none
   }
-.start-cont{
+.start-cont:hover{
   margin-top: 20px;
   transition: 400ms;
   background-color: greenyellow;
   color: rgb(215, 248, 0);
   font-size: 35px;
   box-shadow: 1px 0px 10px 10px rgb(43, 52, 226);
-
 }
   .dgrid {
     margin-top: 12px;
