@@ -469,7 +469,15 @@ button {
   .hiddenc3 {
     display: none
   }
+.start-cont{
+  margin-top: 20px;
+  transition: 400ms;
+  background-color: greenyellow;
+  color: rgb(215, 248, 0);
+  font-size: 35px;
+  box-shadow: 1px 0px 10px 10px rgb(43, 52, 226);
 
+}
   .dgrid {
     margin-top: 12px;
     display: grid;
@@ -520,6 +528,17 @@ button {
     grid-column: 1;
     grid-row: 3/span 1;
   }
+  
+.start-class:hover {
+  margin-top: 20px;
+  transition: 400ms;
+  background-color: greenyellow;
+  color: rgb(215, 248, 0);
+  font-size: 35px;
+  box-shadow: 1px 0px 10px 10px rgb(43, 52, 226);
+
+}
+
 
   /* for stats */
 }
@@ -540,6 +559,16 @@ button {
     box-shadow: 1px 6px 9px 9px rgba(225, 225, 225, 0.7);
     border: 3px solid rgb(30, 0, 57);
   }
+  .start-class:hover {
+    margin-top: 20px;
+    transition: 400ms;
+    background-color: greenyellow;
+    color: rgb(215, 248, 0);
+    font-size: 35px;
+    box-shadow: 1px 0px 10px 10px rgb(43, 52, 226);
+  
+  }
+  
 
   .slogo {
     display: flex;
